@@ -16,7 +16,6 @@ const Background = () => {
         <div className="canvas">
           <canvas className="connecting-dots"></canvas>
         </div>
-        <h1>hekllo</h1>
       </div>
     </>
   )
