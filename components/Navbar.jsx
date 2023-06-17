@@ -5,18 +5,14 @@ import {  useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 
 const Navbar = () => {
-
   const [nav, setNav] = useState(false);
-
   const handleNav = () => {
     setNav(!nav);
   };
 
-
-
 return (
   <> 
-      <nav className='flex flex-wrap  h-[5rem] items-center justify-between  mx-auto   py-3 shadow px-10 '>
+      <nav className=' flex flex-wrap  h-[5rem] items-center justify-between  mx-auto   py-3 shadow px-10 '>
     <div className='text-xl font-bold '>Paras.<span className='text-blue-400'>dev</span></div>
   
       <div className=' hidden md:flex gap-5 text-lg font-semibold '>

@@ -3,12 +3,12 @@
 @tailwind utilities;
 
 
-/* .hero {
+ .hero {
   position: relative;
   display: flex;
   height: 100vh;
   width: 100%;
-  z-index: 9;
+  z-index: 9099;
 }
 
 .canvas {
@@ -20,4 +20,20 @@
   width: 100%;
   height: 100vh;  
   overflow: hidden;
-} */
+} 
+.heading{
+  position: relative;
+  align-self: center;
+  justify-self: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: normal;
+  width: fit-content;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 300;
+  z-index: 999;
+}
