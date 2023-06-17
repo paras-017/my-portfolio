@@ -1,13 +1,13 @@
 'use client'
-import React, { useEffect } from 'react'
+import React from 'react'
 import canvasDots from './heroCanvas.js';
 
 const Background = () => {
-    if (typeof window !== "undefined") {
-        window.onload = function () {
-            canvasDots();
-        };
-    }
+  // if (typeof window !== "undefined") {
+  // }
+  window.onload = function () {
+      canvasDots();
+  };
     
     
   return (
@@ -16,7 +16,7 @@ const Background = () => {
         <div className="canvas">
           <canvas className="connecting-dots"></canvas>
         </div>
-      </div>
+      </div>     
     </>
   )
 }

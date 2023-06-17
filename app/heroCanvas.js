@@ -36,7 +36,7 @@ const canvasDots = function () {
       };
     } else if (windowSize > 1300) {
       dots = {
-        nb: 575,
+        nb: 500,
         distance: 60,
         d_radius: 280,
         array: [],
@@ -51,22 +51,22 @@ const canvasDots = function () {
     } else if (windowSize > 800) {
       dots = {
         nb: 300,
-        distance: 0,
-        d_radius: 0,
+        distance: 60,
+        d_radius: 280,
         array: [],
       };
     } else if (windowSize > 600) {
       dots = {
         nb: 200,
-        distance: 0,
-        d_radius: 0,
+        distance: 60,
+        d_radius: 280,
         array: [],
       };
     } else {
       dots = {
         nb: 100,
-        distance: 0,
-        d_radius: 0,
+        distance: 60,
+        d_radius: 280,
         array: [],
       };
     }

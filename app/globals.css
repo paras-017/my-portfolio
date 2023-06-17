@@ -2,12 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-.hero {
+
+/* .hero {
   position: relative;
   display: flex;
   height: 100vh;
   width: 100%;
-  z-index: 999;
+  z-index: 9;
 }
 
 .canvas {
@@ -19,4 +20,4 @@
   width: 100%;
   height: 100vh;  
   overflow: hidden;
-}
+} */
